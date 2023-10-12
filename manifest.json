@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "YouBroke",
+  "version": "1.0",
+  "description": "A tool to help you not spend money on Amazon",
+  "content_scripts": [
+    {
+      "matches": ["https://www.amazon.com/*"],
+      "js": ["./main.js"],
+      "css": ["main.css"]
+    }
+  ]
+}
